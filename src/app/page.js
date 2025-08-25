@@ -2,7 +2,7 @@ import DashboardStats from '@/components/DashboardStats'
 
 export default function Home() {
   return (
-    <div className="ml-64 pt-16">
+    <div className="md:ml-64 pt-16">
       <div className="p-6">
         <h2 className="text-2xl font-semibold text-gray-800 mb-6">Dashboard</h2>
         

@@ -7,13 +7,13 @@ export default function Profile() {
   const [isEditing, setIsEditing] = useState(false)
   const [userData, setUserData] = useState({
     name: 'Admin User',
-    email: 'admin@hometown.com',
+    email: 'admin@Furniq.com',
     phone: '(555) 123-4567',
     role: 'Administrator',
     joinDate: '2024-01-15',
     lastLogin: '2024-08-24 14:30',
-    bio: 'System administrator for Hometown Furniture with full access to manage products, orders, and inventory.',
-    address: '123 Furniture Ave, Hometown, HT 12345'
+    bio: 'System administrator for Furniq Furniture with full access to manage products, orders, and inventory.',
+    address: '123 Furniture Ave, Furniq, HT 12345'
   })
 
   const [tempData, setTempData] = useState({ ...userData })
@@ -42,7 +42,7 @@ export default function Profile() {
   }
 
   return (
-    <div className="ml-64 pt-16">
+    <div className="md:ml-64 pt-16">
       <div className="p-6">
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-2xl font-semibold text-gray-800">User Profile</h2>

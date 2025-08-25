@@ -5,8 +5,8 @@ import { useState } from 'react'
 export default function Settings() {
   const [activeTab, setActiveTab] = useState('general')
   const [storeInfo, setStoreInfo] = useState({
-    name: 'Hometown Furniture',
-    email: 'contact@hometownfurniture.com',
+    name: 'Furniq Furniture',
+    email: 'contact@furniqfurniture.com',
     phone: '(555) 123-4567',
     address: '123 Furniture Ave, Hometown, HT 12345',
     currency: 'USD',
@@ -22,7 +22,7 @@ export default function Settings() {
   ]
 
   return (
-    <div className="ml-64 pt-16">
+    <div className="md:ml-64 pt-16">
       <div className="p-6">
         <div className="container mx-auto px-6">
           <h2 className="text-2xl font-semibold text-gray-800 mb-6">Settings</h2>
